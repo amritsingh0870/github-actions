@@ -8,7 +8,7 @@ jobs :
         steps : 
             - name : Js-Action
               id : id0870
-              uses : actions/hello-world-javascript-actions@v1
+              uses : amritsingh0870/hello-world-javascript-action@v1
               with :
                 who-to-greet : Amrit
             - name : Log Greeting time
