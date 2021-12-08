@@ -1,0 +1,26 @@
+name : Amrit
+age : 23
+city : bangalore
+active : true
+
+key :
+    key1 : value
+    key2 : 0870
+    key3 : 
+        key-a : 1
+        key-b : 2
+
+jsonObject : {key1 : value,key2 : 0870,key3 : {key-a : 1,key-b : 2}}
+
+array :
+    - item1
+    - item2
+    - {key : value}
+
+jsonArray : [item1,item2]
+
+objectArray : 
+    - key-a : value-a
+      key-b : value-b
+    - key1 : value1
+      key2 : value2
