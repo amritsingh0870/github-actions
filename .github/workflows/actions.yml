@@ -8,7 +8,7 @@ jobs :
         steps : 
             - name : Js-Action
               id : id0870
-              uses : ./index.js
+              uses : ./
               with :
                 who-to-greet : Amrit
             - name : Log Greeting time
