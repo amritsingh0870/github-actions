@@ -1,0 +1,15 @@
+name : Actions Workflow
+
+on : [push]
+
+jobs : 
+    run-github-actions:
+        runs-on : ubuntu-latest
+        steps : 
+            - name : Js-Action
+              id : id0870
+              uses : ./index.js
+              with :
+                who-to-greet : Amrit
+            - name : Log Greeting time
+              run : echo "${{ steps.id0870.outputs.time }}"
